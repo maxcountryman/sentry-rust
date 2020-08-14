@@ -45,7 +45,7 @@
 //! [`TransportFactory`]: trait.TransportFactory.html
 
 #![doc(html_logo_url = "https://sentry-brand.storage.googleapis.com/sentry-glyph-black.png")]
-#![deny(missing_docs)]
+#![warn(missing_docs)]
 
 // macros; these need to be first to be used by other modules
 #[macro_use]
@@ -62,6 +62,7 @@ mod hub;
 mod integration;
 mod intodsn;
 mod scope;
+mod session;
 mod transport;
 
 // public api or exports from this crate

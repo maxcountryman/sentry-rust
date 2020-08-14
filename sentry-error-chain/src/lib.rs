@@ -24,7 +24,7 @@
 //! ```
 
 #![doc(html_logo_url = "https://sentry-brand.storage.googleapis.com/sentry-glyph-black.png")]
-#![deny(missing_docs)]
+#![warn(missing_docs)]
 #![deny(unsafe_code)]
 
 use std::fmt::{Debug, Display};
